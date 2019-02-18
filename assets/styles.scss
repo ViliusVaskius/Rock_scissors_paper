@@ -1,0 +1,154 @@
+
+//CSS here
+
+header{
+        background: white;
+        color: #25272E;
+        text-align: center;
+      font-family: sans-serif;
+      padding: 20px;
+        
+}
+
+body{
+background: rgb(59, 62, 70) !important;
+        
+}
+
+
+
+
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+}
+
+.score-board{
+        text-align: center;
+        font-family: sans-serif;
+        padding: 20px;
+        width: auto;
+       color: white;
+          text-decoration-color: aliceblue;
+}
+.score-board a{
+                font-size: 45px;
+                padding-left: 15px;
+                padding-right: 15px;
+             
+        }
+.badge{
+         margin: 30px;
+         background: rgb(221, 25, 25);
+}
+
+.badge a{
+
+        font-size: 15px;
+}
+.badge span{
+        font-size: 20px;  
+}
+.result > p {
+        font-weight: bold;
+        text-align: center;
+        font-size: 35px;
+        color: white;
+        height: 140px;
+}
+.choices{
+       
+       
+        margin-top: 25px;
+        text-align: center;
+}
+.choice{
+        display: inline-block;
+        margin: 20px;
+        border:  4px solid white;
+        border-radius: 50%;
+        padding: 15px;
+        transition: 0.5s ease;
+}
+.choice:hover{
+        cursor: pointer;
+        background: #25271E;
+}
+
+#action-msg{
+        text-align: center;
+        color: white;
+        font-family: sans-serif;
+        font-size: 20px;
+}
+
+.green-glow{
+        border:  8px solid rgb(26, 230, 53);
+        box-shadow:  0 0 25px #31b43a;
+}
+.red-glow{
+        border:  8px solid rgb(211, 12, 38);
+        box-shadow:  0 0 25px #b12424;
+}
+.grey-glow{
+        border:  8px solid rgb(167, 165, 166);
+        box-shadow:  0 0 25px #110f0f;
+}
+
+.board-shake {
+
+        
+                /* Start the shake animation and make the animation last for 0.5 seconds */
+                animation: shake 0.5s;
+              
+                /* When the animation is finished, start again */
+                animation-iteration-count: infinite;
+        
+            
+
+}
+  
+@keyframes shake {
+        0% { transform: translate(1px, 1px) rotate(0deg); }
+        10% { transform: translate(-1px, -2px) rotate(-1deg); }
+        20% { transform: translate(-3px, 0px) rotate(1deg); }
+        30% { transform: translate(3px, 2px) rotate(0deg); }
+        40% { transform: translate(1px, -1px) rotate(1deg); }
+        50% { transform: translate(-1px, 2px) rotate(-1deg); }
+        60% { transform: translate(-3px, 1px) rotate(0deg); }
+        70% { transform: translate(3px, 1px) rotate(-1deg); }
+        80% { transform: translate(-1px, -1px) rotate(1deg); }
+        90% { transform: translate(1px, 2px) rotate(0deg); }
+        100% { transform: translate(1px, -2px) rotate(-1deg); }
+      }
+/* Media query world!!!_________________________________________________________________*/
+
+        @media only screen and (max-width: 1500px){
+
+///code goes here
+            
+
+        }//end of 1580
+
+
+ @media only screen and (max-width: 1115px){
+///code goes here
+ }
+
+
+        @media only screen and (max-width: 630px){
+        ///code goes here
+
+
+        } //close of 630px query
+
+
+
+//420px
+@media only screen and (max-width: 420px){
+
+///code goes here
+
+}
+
